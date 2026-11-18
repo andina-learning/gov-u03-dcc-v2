@@ -270,13 +270,25 @@
 
       <p data-reveal>Una universidad pública licenciada de la región Apurímac somete a evaluación el plan curricular de su programa de Medicina Veterinaria y Zootecnia, vigente desde hace ocho años.</p>
 
-      <!-- Propuesta de componentes (insumos/di/GOV_U03_DCC_v01-propuesta.docx) · antes Bloque con Cifra destacada - oscura: los datos del caso en una Lista de viñetas (catálogo) -->
+      <!-- Propuesta de componentes (insumos/di/GOV_U03_DCC_v01-propuesta.docx) · antes Bloque con Cifra destacada - oscura: dos Tarjetas con cifra destacada - clara (catálogo), lado a lado con estilo propio
+           de la pantalla, para los dos porcentajes del caso, y los otros cinco datos en una Lista de viñetas (catálogo). Pedido del arquitecto. -->
 
       <p data-reveal>Los datos disponibles indican lo siguiente:</p>
 
+      <div class="ua-par-cifras" data-reveal>
+        <div class="ova-cifra ova-cifra--clara">
+          <p class="ova-cifra__num"><span data-ova-contar>34</span><small>%</small></p>
+          <p class="ova-cifra__texto">de <strong>titulación oportuna</strong>.</p>
+          <div class="ova-cifra__reticula" data-ova-puntos="34" aria-hidden="true"></div>
+        </div>
+        <div class="ova-cifra ova-cifra--clara">
+          <p class="ova-cifra__num"><span data-ova-contar>82</span><small>%</small></p>
+          <p class="ova-cifra__texto">de los egresados trabaja en <strong>distritos rurales</strong> con productores de ganado alpaquero y vacuno.</p>
+          <div class="ova-cifra__reticula" data-ova-puntos="82" aria-hidden="true"></div>
+        </div>
+      </div>
+
       <ul class="ova-vinetas" data-reveal>
-        <li>La titulación oportuna es de treinta y cuatro por ciento.</li>
-        <li>El 82 % de los egresados trabaja en distritos rurales con productores de ganado alpaquero y vacuno.</li>
         <li>El perfil de egreso declara once competencias, entre ellas una de “comunicación intercultural” que ninguna asignatura tiene asignada.</li>
         <li>El plan no contempla formación en lengua originaria pese a que la mayoría de los productores de la zona es quechuahablante.</li>
         <li>Las prácticas preprofesionales se concentran en el último ciclo y se realizan en la capital de la región.</li>
@@ -375,4 +387,10 @@
         /* El Bloque destacado - simple a todo el ancho: en celular la piel le guarda la columna del icono, que aquí no
            hay, y deja una palabra por línea. */
         .ova-destacado--sin-icono { grid-template-columns: 1fr !important; }
+        /* El párrafo que sigue a un Bloque destacado - sin fondo quedaba pegado al último bloque: 40 px, como entre piezas. */
+        .ova-campos + p { margin-top: 40px !important; }
+        /* Dos Tarjetas con cifra destacada lado a lado (una debajo de la otra en celular). */
+        .ua-par-cifras { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; margin: 28px 0 40px; }
+        .ua-par-cifras .ova-cifra { max-width: none; margin: 0; }
+        @media (max-width: 720px) { .ua-par-cifras { grid-template-columns: 1fr; } }
       </style>

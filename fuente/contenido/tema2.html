@@ -121,6 +121,16 @@
 
       <p data-reveal>La misma resolución precisa que el otorgamiento de la licencia institucional no exime a la universidad del cumplimiento de las condiciones básicas de calidad durante toda la vigencia de la licencia, y que ese cumplimiento es verificado por la Dirección de Evaluación del Servicio Educativo Superior Universitario (Resolución del Consejo Directivo N.º 0005-2026-SUNEDU-CD, 2026).</p>
 
+      <!-- Ilustración explicativa de cuerpo (catálogo) · la idea del párrafo que sigue: «el eje del sistema se desplazó del licenciamiento como
+           puerta de entrada hacia la supervisión como control permanente». Rótulos literales del Word. Guion en insumos/ILUSTRACIONES.md.
+           Pie y texto alternativo: capa editorial. Pedida por el arquitecto (2026-11-18); pendiente de que la vea. -->
+
+      <figure class="ova-ilustracion" data-reveal>
+        <img src="assets/img/curso/ilustracion-control-permanente.svg"
+             alt="Un camino de izquierda a derecha. A la izquierda, sobre un tramo gris, una carpeta de contorno punteado con un solo punto debajo: expediente puntual. Después, una puerta abierta: puerta de entrada. De la puerta sale una franja amarilla continua que sigue hasta el borde derecho y termina en punta de flecha: control permanente. Sobre la franja, una tarjeta con la hoja de las condiciones, todas con su visto bueno, unida a un marcador que puede correrse a un lado y al otro: en cualquier momento." />
+        <figcaption>Pasada la puerta de entrada, el control es permanente: las condiciones básicas deben poder acreditarse en cualquier momento.</figcaption>
+      </figure>
+
       <p data-reveal>La consecuencia técnica de ese conjunto de cambios es la que importa para su trabajo: el eje del sistema se desplazó del licenciamiento como puerta de entrada hacia la supervisión como control permanente. Para una comisión curricular esto significa que las condiciones básicas ya no se preparan para un expediente puntual, sino que deben poder acreditarse en cualquier momento. Un plan de estudios que dejó de corresponder con la oferta autorizada, una modalidad que cambió sin trámite o una línea de investigación declarada sin actividad son hallazgos con consecuencias, no observaciones menores.</p>
 
       <!-- Bloque destacado - fondo de color (catálogo) · «Para tener en cuenta», con el consejo; la primera frase sigue como párrafo -->
@@ -494,4 +504,6 @@
         /* El Bloque destacado - simple a todo el ancho: en celular la piel le guarda la columna del icono, que aquí no
            hay, y deja una palabra por línea. El mismo arreglo que ya lleva el tema 2 de este curso. */
         .ova-destacado--sin-icono { grid-template-columns: 1fr !important; }
+        /* El párrafo que sigue a un Bloque destacado - sin fondo quedaba pegado al último bloque: 40 px, como entre piezas. */
+        .ova-campos + p { margin-top: 40px !important; }
       </style>

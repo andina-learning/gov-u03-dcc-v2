@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 440" width="1200" height="440" role="img"
+     aria-label="Un camino de izquierda a derecha. A la izquierda, sobre un tramo gris, una carpeta de contorno punteado con un solo punto debajo: expediente puntual. Después, una puerta abierta: puerta de entrada. De la puerta sale una franja amarilla continua que sigue hasta el borde derecho y termina en punta de flecha: control permanente. Sobre la franja, una tarjeta con la hoja de las condiciones, todas con su visto bueno, unida a un marcador que puede correrse a un lado y al otro: en cualquier momento.">
+  <!-- Ilustración de marca · Universidad Andina Virtual · gov-u03-dcc-v2 · tema 2 (cuerpo, subtema
+       2.1, después del párrafo «La misma resolución precisa que el otorgamiento de la licencia
+       institucional no exime…» y antes del párrafo «La consecuencia técnica de ese conjunto de
+       cambios es la que importa para su trabajo…»)
+       Concepto (DI, propuesta, ese segundo párrafo): «el eje del sistema se desplazó del
+       licenciamiento como puerta de entrada hacia la supervisión como control permanente. Para una
+       comisión curricular esto significa que las condiciones básicas ya no se preparan para un
+       expediente puntual, sino que deben poder acreditarse en cualquier momento.»
+       Lo puntual es un punto; lo permanente, una franja que no termina. La puerta queda en medio.
+       Rótulos: cuatro fragmentos literales de esas dos oraciones. Guion en insumos/ILUSTRACIONES.md.
+       Contorno punteado = lo que ya no está (el mismo código de ilustracion-dos-anos-despues.svg y de
+       ilustracion-mismo-indicador.svg): el expediente puntual, para el que las condiciones «ya no se
+       preparan». La puerta va en trazo continuo: el licenciamiento sigue siendo la entrada.
+       La franja no lleva marcas, fechas ni escala: el DI no dice cada cuánto se verifica, dice
+       «en cualquier momento». Por eso hay un solo marcador y puede correrse.
+       Los cuatro vistos buenos de la hoja no nombran condiciones: es la hoja de la familia.
+       Único amarillo: la franja del control permanente, con su punta. -->
+  <defs>
+    <linearGradient id="ilu-control-permanente-fondo" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%"   stop-color="#E6F3FA"/>
+      <stop offset="55%"  stop-color="#E8EDF5"/>
+      <stop offset="100%" stop-color="#F5F8FB"/>
+    </linearGradient>
+    <filter id="ilu-control-permanente-sombra" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#132B41" flood-opacity="0.16"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="440" rx="18" fill="url(#ilu-control-permanente-fondo)"/>
+
+  <!-- La puerta y la tarjeta de las condiciones -->
+  <g filter="url(#ilu-control-permanente-sombra)" fill="#FFFFFF">
+    <path d="M300 318 V134 a14 14 0 0 1 14 -14 h72 a14 14 0 0 1 14 14 V318 z"/>
+    <rect x="610" y="48" width="180" height="192" rx="16"/>
+  </g>
+
+  <!-- ══ El camino antes de la puerta ══ -->
+  <line x1="70" y1="318" x2="300" y2="318" stroke="#132B41" stroke-width="3" stroke-linecap="round" opacity=".18"/>
+
+  <!-- ══ El expediente puntual: una carpeta y un solo punto. Ya no se prepara para eso ══ -->
+  <g>
+    <!-- la hoja de las condiciones, dentro de la carpeta -->
+    <rect x="104" y="178" width="72" height="80" rx="6" fill="#EEF2F7" stroke="#132B41" stroke-width="2.5" stroke-opacity=".3"/>
+    <rect x="114" y="188" width="30" height="6" rx="3" fill="#132B41" opacity=".28"/>
+    <rect x="114" y="201" width="50" height="5" rx="2.5" fill="#132B41" opacity=".16"/>
+    <!-- la carpeta -->
+    <path d="M82 216 a8 8 0 0 1 8 -8 h30 l10 10 h60 a8 8 0 0 1 8 8 v50 a8 8 0 0 1 -8 8 h-100 a8 8 0 0 1 -8 -8 z"
+          fill="#F5F8FB" stroke="#132B41" stroke-width="2.5" stroke-dasharray="6 6" stroke-linecap="round"
+          stroke-linejoin="round" stroke-opacity=".45"/>
+    <line x1="140" y1="293" x2="140" y2="304" stroke="#132B41" stroke-width="3" stroke-linecap="round" opacity=".3"/>
+    <circle cx="140" cy="318" r="9" fill="#8794A1"/>
+  </g>
+
+  <!-- ══ El licenciamiento como puerta de entrada: abierta ══ -->
+  <path d="M300 318 V134 a14 14 0 0 1 14 -14 h72 a14 14 0 0 1 14 14 V318" fill="none" stroke="#00417B"
+        stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- el vano -->
+  <path d="M313 318 V137 a4 4 0 0 1 4 -4 h66 a4 4 0 0 1 4 4 V318 z" fill="#DCE8F3"/>
+  <!-- la hoja de la puerta, abierta hacia adentro -->
+  <path d="M313 133 L357 153 V304 L313 318 z" fill="#FFFFFF" stroke="#00417B" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="346" cy="232" r="4" fill="#00417B"/>
+
+  <!-- ÚNICO AMARILLO: la supervisión como control permanente. Sale de la puerta y no termina -->
+  <line x1="372" y1="318" x2="1112" y2="318" stroke="#F0B443" stroke-width="12" stroke-linecap="round"/>
+  <path d="M1112 300 L1146 318 L1112 336 z" fill="#F0B443" stroke="#F0B443" stroke-width="6" stroke-linejoin="round"/>
+
+  <!-- ══ Las condiciones básicas, acreditadas: la hoja con sus vistos buenos ══ -->
+  <rect x="648" y="66" width="104" height="156" rx="8" fill="#E8EDF5" stroke="#00417B" stroke-width="2.5"/>
+  <rect x="662" y="82" width="46" height="8" rx="4" fill="#00417B" opacity=".55"/>
+  <g fill="none" stroke="#00417B" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M662 112 l5 5 l9 -10"/>
+    <path d="M662 138 l5 5 l9 -10"/>
+    <path d="M662 164 l5 5 l9 -10"/>
+    <path d="M662 190 l5 5 l9 -10"/>
+  </g>
+  <g fill="#132B41" opacity=".22">
+    <rect x="686" y="108" width="52" height="7" rx="3.5"/>
+    <rect x="686" y="134" width="44" height="7" rx="3.5"/>
+    <rect x="686" y="160" width="52" height="7" rx="3.5"/>
+    <rect x="686" y="186" width="38" height="7" rx="3.5"/>
+  </g>
+
+  <!-- ══ En cualquier momento: un solo marcador, que puede correrse a un lado y al otro ══ -->
+  <line x1="700" y1="252" x2="700" y2="298" stroke="#00417B" stroke-width="3" stroke-linecap="round" opacity=".5"/>
+  <g fill="none" stroke="#00417B" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M668 305 l-13 13 l13 13"/>
+    <path d="M732 305 l13 13 l-13 13"/>
+  </g>
+  <circle cx="700" cy="318" r="14" fill="#FFFFFF" stroke="#00417B" stroke-width="3.5"/>
+
+  <!-- Los rótulos: las palabras de las dos oraciones -->
+  <g font-family="Manrope, system-ui, sans-serif" font-size="17" font-weight="600" fill="#132B41" text-anchor="middle">
+    <text x="140" y="392">expediente puntual</text>
+    <text x="350" y="392">puerta de entrada</text>
+    <text x="700" y="392">en cualquier momento</text>
+    <text x="1010" y="392">control permanente</text>
+  </g>
+</svg>
