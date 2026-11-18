@@ -481,9 +481,16 @@
         .ua-viva .v-relleno { fill: var(--c-acento); }
         /* El ciclo de 2.3 es la base de los puntos interactivos: ocupa el sitio de la imagen. */
         .ova-hotspots__img.ua-viva > svg { width: 100%; height: auto; display: block; }
-        /* El proceso escalonado va con la escalera de la pieza (sin la imagen del signo de pregunta): las dos primeras
-           marcas «Pregunta N» en el azul de la marca, como en la versión 1 (el azul medio no pasa el contraste). */
+        /* El proceso escalonado lleva el signo de interrogación redibujado en SVG (no la imagen del diseñador) en el
+           lugar de la escalera. Las dos primeras marcas «Pregunta N» van en el azul de la marca, como en la versión 1
+           (el azul medio no pasa el contraste), y el signo pasa arriba desde 1180 px, también como en la versión 1. */
         .ova-ciclo--escalonado .ova-ciclo__paso:nth-child(-n+2) .ova-ciclo__num { color: var(--c-acento); }
+        .ova-ciclo--escalonado svg.ua-interrogacion { max-width: 300px; margin-inline: auto; }
+        .ua-interrogacion text { fill: #fff; font-weight: 800; }
+        @media (max-width: 1180px) {
+          .ova-ciclo--escalonado:has(.ua-interrogacion) { grid-template-columns: 1fr; gap: 28px; }
+          .ova-ciclo--escalonado svg.ua-interrogacion { position: static; max-width: 220px; }
+        }
         /* El Bloque destacado - simple a todo el ancho: en celular la piel le guarda la columna del icono, que aquí no
            hay, y deja una palabra por línea. El mismo arreglo que ya lleva el tema 2 de este curso. */
         .ova-destacado--sin-icono { grid-template-columns: 1fr !important; }
