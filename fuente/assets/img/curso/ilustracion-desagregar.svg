@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 440" width="1200" height="440" role="img"
+     aria-label="A la izquierda, una tarjeta con un birrete y una sola barra llena hasta cerca de un tercio, con el rótulo treinta y uno por ciento. De ella sale una flecha que se abre en dos hacia una tarjeta más grande, a la derecha, con dos filas, cada una con un edificio y su barra: la de la sede central, más larga, y la de la sede provincial, más corta. El tramo que le falta a la sede provincial para igualar a la central está en amarillo, con el rótulo diecisiete puntos menos.">
+  <!-- Ilustración de marca · Universidad Andina Virtual · gov-u03-dcc · tema 1 (cuerpo, caso de
+       aplicación de 1.2, después de las pestañas de los tres hallazgos)
+       Concepto (DI, P0363): «no más datos, sino la desagregación del dato que ya se tenía». El dato
+       es el de P0328 («El indicador de titulación oportuna es de treinta y uno por ciento») y lo que
+       aparece al abrirlo, el primer hallazgo (P0336): «los estudiantes de la sede provincial titulan
+       diecisiete puntos menos que los de la sede central». Rótulos: fragmentos literales de P0328 y
+       P0336. Guion en insumos/ILUSTRACIONES.md.
+       El DI da el total y la diferencia, no el valor de cada sede: las dos barras de la derecha van
+       sin pista de fondo y sin cifra (sin escala, decisión del arquitecto, 2026-11-17). Solo dicen
+       cuál es más corta y cuánto mide la diferencia respecto de la pista del dato de la izquierda.
+       Único amarillo: el tramo de diecisiete puntos que separa a las dos sedes. -->
+  <defs>
+    <linearGradient id="ilu-desagregar-fondo" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%"   stop-color="#E6F3FA"/>
+      <stop offset="55%"  stop-color="#E8EDF5"/>
+      <stop offset="100%" stop-color="#F5F8FB"/>
+    </linearGradient>
+    <filter id="ilu-desagregar-sombra" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#132B41" flood-opacity="0.16"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="440" rx="18" fill="url(#ilu-desagregar-fondo)"/>
+
+  <!-- El dato que ya se tenía y el mismo dato, abierto por sede -->
+  <g filter="url(#ilu-desagregar-sombra)" fill="#FFFFFF">
+    <rect x="60"  y="120" width="380" height="200" rx="16"/>
+    <rect x="620" y="50"  width="520" height="340" rx="16"/>
+  </g>
+
+  <!-- El dato se abre en dos -->
+  <g fill="none" stroke="#00417B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" opacity=".75">
+    <path d="M456 220 H 500 C 552 220, 548 135, 600 135"/>
+    <path d="M500 220 C 552 220, 548 305, 600 305"/>
+    <path d="M591 126 l9 9 -9 9"/>
+    <path d="M591 296 l9 9 -9 9"/>
+  </g>
+
+  <!-- ══ El dato que ya se tenía: titulación oportuna, treinta y uno por ciento ══ -->
+  <g transform="translate(-510 -92)">
+    <path d="M618 262 v18 q27 15 54 0 v-18 z" fill="#00417B" opacity=".55"/>
+    <path d="M645 236 l50 18 l-50 18 l-50 -18 z" fill="#00417B"/>
+    <line x1="695" y1="254" x2="695" y2="278" stroke="#00417B" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="695" cy="282" r="5" fill="#00417B"/>
+  </g>
+  <rect x="85" y="264" width="330" height="22" rx="11" fill="#132B41" opacity=".12"/>
+  <rect x="85" y="264" width="102" height="22" rx="11" fill="#00417B"/>
+
+  <!-- ══ El mismo dato, por sede ══ -->
+  <line x1="650" y1="220" x2="1110" y2="220" stroke="#132B41" stroke-width="2" stroke-linecap="round" opacity=".12"/>
+
+  <!-- sede central -->
+  <path d="M654 120 L682 102 L710 120 Z" fill="#00417B" opacity=".55"/>
+  <rect x="654" y="120" width="56" height="6" fill="#00417B"/>
+  <g fill="#00417B" opacity=".45">
+    <rect x="660" y="130" width="8" height="24" rx="2"/>
+    <rect x="678" y="130" width="8" height="24" rx="2"/>
+    <rect x="696" y="130" width="8" height="24" rx="2"/>
+  </g>
+  <rect x="650" y="154" width="64" height="6" rx="2" fill="#00417B" opacity=".8"/>
+  <rect x="750" y="138" width="130" height="22" rx="11" fill="#00417B"/>
+
+  <!-- sede provincial -->
+  <path d="M654 290 L682 272 L710 290 Z" fill="#00417B" opacity=".55"/>
+  <rect x="654" y="290" width="56" height="6" fill="#00417B"/>
+  <g fill="#00417B" opacity=".45">
+    <rect x="660" y="300" width="8" height="24" rx="2"/>
+    <rect x="678" y="300" width="8" height="24" rx="2"/>
+    <rect x="696" y="300" width="8" height="24" rx="2"/>
+  </g>
+  <rect x="650" y="324" width="64" height="6" rx="2" fill="#00417B" opacity=".8"/>
+  <!-- ÚNICO AMARILLO: los diecisiete puntos que separan a las dos sedes -->
+  <rect x="810" y="308" width="70" height="22" rx="11" fill="#F0B443"/>
+  <rect x="750" y="308" width="74" height="22" rx="11" fill="#00417B"/>
+  <rect x="813" y="308" width="11" height="22" fill="#00417B"/>
+
+  <!-- hasta dónde llega la sede central -->
+  <line x1="880" y1="166" x2="880" y2="302" stroke="#00417B" stroke-width="2.5" stroke-linecap="round"
+        stroke-dasharray="5 7" opacity=".5"/>
+  <path d="M824 340 v7 h56 v-7" fill="none" stroke="#132B41" stroke-width="2" stroke-linecap="round"
+        stroke-linejoin="round" opacity=".35"/>
+
+  <!-- Los rótulos: las palabras del caso -->
+  <g font-family="Manrope, system-ui, sans-serif" font-size="17" font-weight="600" fill="#132B41">
+    <text x="85"  y="248">treinta y uno por ciento</text>
+    <text x="750" y="122">sede central</text>
+    <text x="750" y="292">sede provincial</text>
+    <text x="824" y="372">diecisiete puntos menos</text>
+  </g>
+</svg>

@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 440" width="1200" height="440" role="img"
+     aria-label="Arriba, la hoja de un plan curricular con una casilla vacía, contorneada en amarillo punteado, bajo la palabra pertinencia. Abajo, tres tarjetas unidas a esa hoja por líneas punteadas, cada una con una persona: el director del programa, junto a un documento con un sello oficial; una colega, junto a un birrete y una barra que apenas se llena; y un tercer integrante, junto a un reloj y un documento de contorno punteado, todavía sin definir.">
+  <!-- Ilustración de marca · Universidad Andina Virtual · gov-u03-dcc · introducción (cuerpo,
+       entre el párrafo del caso y el de las tres preguntas)
+       Concepto (DI, P0027): las tres posiciones de la primera reunión y su cierre, «Frente a estas
+       posiciones, la comisión debe determinar qué evidencia permite valorar la pertinencia del
+       currículo…». Cada integrante con aquello en que se apoya; los tres hablan del mismo plan.
+       Las tres tarjetas pesan lo mismo: el dibujo no toma partido. Rótulos: fragmentos literales
+       del párrafo. Guion en insumos/ILUSTRACIONES.md.
+       Único amarillo: el contorno punteado de la casilla vacía de la pertinencia (el mismo código
+       que ilustracion-ninguno-solo.svg de unidad-demo: punteado = lo que falta).
+       ERRORES-ORIGEN F21: el documento del tercer integrante no lleva nombre ni sigla; el sello
+       del director no lleva texto. -->
+  <defs>
+    <linearGradient id="ilu-tres-posiciones-fondo" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%"   stop-color="#E6F3FA"/>
+      <stop offset="55%"  stop-color="#E8EDF5"/>
+      <stop offset="100%" stop-color="#F5F8FB"/>
+    </linearGradient>
+    <filter id="ilu-tres-posiciones-sombra" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#132B41" flood-opacity="0.16"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="440" rx="18" fill="url(#ilu-tres-posiciones-fondo)"/>
+
+  <!-- La hoja del plan y las tres tarjetas de la reunión -->
+  <g filter="url(#ilu-tres-posiciones-sombra)" fill="#FFFFFF">
+    <rect x="400" y="32"  width="400" height="124" rx="16"/>
+    <rect x="60"  y="206" width="320" height="146" rx="16"/>
+    <rect x="440" y="206" width="320" height="146" rx="16"/>
+    <rect x="820" y="206" width="320" height="146" rx="16"/>
+  </g>
+
+  <!-- Los tres hablan del mismo plan -->
+  <g fill="none" stroke="#00417B" stroke-width="3" stroke-linecap="round" stroke-dasharray="7 7" opacity=".5">
+    <path d="M220 196 C 220 120, 300 94, 390 94"/>
+    <path d="M600 196 V 166"/>
+    <path d="M980 196 C 980 120, 900 94, 810 94"/>
+  </g>
+
+  <!-- ══ El plan curricular vigente que la comisión revisa ══ -->
+  <rect x="424" y="52" width="96" height="9" rx="4.5" fill="#00417B" opacity=".55"/>
+  <rect x="424" y="74" width="22" height="16" rx="4" fill="#00417B" opacity=".45"/>
+  <g fill="#132B41" opacity=".2">
+    <rect x="452" y="74" width="22" height="16" rx="4"/>
+    <rect x="480" y="74" width="22" height="16" rx="4"/>
+    <rect x="508" y="74" width="22" height="16" rx="4"/>
+    <rect x="536" y="74" width="22" height="16" rx="4"/>
+    <rect x="564" y="74" width="22" height="16" rx="4"/>
+  </g>
+  <g fill="#132B41" opacity=".22">
+    <rect x="424" y="106" width="162" height="7" rx="3.5"/>
+    <rect x="424" y="124" width="128" height="7" rx="3.5"/>
+  </g>
+  <line x1="616" y1="52" x2="616" y2="136" stroke="#132B41" stroke-width="2" stroke-linecap="round" opacity=".12"/>
+
+  <!-- la pertinencia: tiene nombre y todavía nada dentro -->
+  <rect x="644" y="48" width="132" height="28" rx="14" fill="#00417B" opacity=".12"/>
+  <text x="710" y="68" text-anchor="middle" font-family="Manrope, system-ui, sans-serif"
+        font-size="17" font-weight="600" fill="#132B41">pertinencia</text>
+  <!-- ÚNICO AMARILLO: la casilla que la comisión tiene que llenar con evidencia -->
+  <rect x="644" y="88" width="132" height="50" rx="10" fill="none"
+        stroke="#F0B443" stroke-width="3.5" stroke-dasharray="9 7" stroke-linecap="round"/>
+
+  <!-- Las personas: una por tarjeta, siempre a la izquierda -->
+  <g fill="none" stroke="#00417B" stroke-width="4" stroke-linecap="round">
+    <circle cx="118" cy="258" r="16"/><path d="M90 318 a28 20 0 0 1 56 0"/>
+    <circle cx="498" cy="258" r="16"/><path d="M470 318 a28 20 0 0 1 56 0"/>
+    <circle cx="878" cy="258" r="16"/><path d="M850 318 a28 20 0 0 1 56 0"/>
+  </g>
+
+  <!-- ══ El director del programa: «está licenciado»: el documento con su sello oficial ══ -->
+  <rect x="196" y="226" width="96" height="106" rx="8" fill="#E8EDF5" stroke="#00417B" stroke-width="2.5"/>
+  <rect x="210" y="242" width="44" height="8" rx="4" fill="#00417B" opacity=".55"/>
+  <g fill="#132B41" opacity=".22">
+    <rect x="210" y="262" width="66" height="7" rx="3.5"/>
+    <rect x="210" y="278" width="52" height="7" rx="3.5"/>
+    <rect x="210" y="294" width="40" height="7" rx="3.5"/>
+  </g>
+  <!-- el sello, sin texto -->
+  <path d="M290 312 l-9 26 l13 -7 l8 11 l6 -24 z" fill="#00417B" opacity=".55"/>
+  <path d="M318 312 l9 26 l-13 -7 l-8 11 l-6 -24 z" fill="#00417B" opacity=".55"/>
+  <circle cx="304" cy="296" r="26" fill="#DCE8F3" stroke="#00417B" stroke-width="3.5"/>
+  <circle cx="304" cy="296" r="17" fill="none" stroke="#00417B" stroke-width="2" stroke-dasharray="3 4" opacity=".7"/>
+  <circle cx="304" cy="296" r="8" fill="#00417B"/>
+
+  <!-- ══ Una colega: «la tasa de titulación oportuna es baja»: el birrete y la barra que apenas se llena ══ -->
+  <path d="M618 262 v18 q27 15 54 0 v-18 z" fill="#00417B" opacity=".55"/>
+  <path d="M645 236 l50 18 l-50 18 l-50 -18 z" fill="#00417B"/>
+  <g stroke="#00417B" stroke-width="3" stroke-linecap="round" fill="none">
+    <line x1="695" y1="254" x2="695" y2="278"/>
+  </g>
+  <circle cx="695" cy="282" r="5" fill="#00417B"/>
+  <rect x="560" y="306" width="170" height="16" rx="8" fill="#132B41" opacity=".12"/>
+  <rect x="560" y="306" width="44"  height="16" rx="8" fill="#00417B"/>
+
+  <!-- ══ Un tercer integrante: esperar a que el nuevo modelo «se aclare»: el reloj y un documento sin definir ══ -->
+  <circle cx="972" cy="279" r="36" fill="#E8EDF5" stroke="#00417B" stroke-width="3.5"/>
+  <g fill="none" stroke="#00417B" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M972 255 V279 L990 290"/>
+  </g>
+  <g fill="#132B41" opacity=".3">
+    <rect x="970.5" y="247" width="3" height="6" rx="1.5"/>
+    <rect x="970.5" y="305" width="3" height="6" rx="1.5"/>
+    <rect x="940"   y="277.5" width="6" height="3" rx="1.5"/>
+    <rect x="998"   y="277.5" width="6" height="3" rx="1.5"/>
+  </g>
+  <rect x="1030" y="226" width="86" height="106" rx="8" fill="#F5F8FB" stroke="#132B41" stroke-width="2.5"
+        stroke-dasharray="6 6" stroke-linecap="round" opacity=".45"/>
+  <g fill="#132B41" opacity=".12">
+    <rect x="1044" y="242" width="40" height="8" rx="4"/>
+    <rect x="1044" y="262" width="58" height="7" rx="3.5"/>
+    <rect x="1044" y="278" width="46" height="7" rx="3.5"/>
+    <rect x="1044" y="294" width="54" height="7" rx="3.5"/>
+  </g>
+
+  <!-- Los integrantes, con las palabras del párrafo del caso -->
+  <g font-family="Manrope, system-ui, sans-serif" font-size="17" font-weight="600" fill="#132B41" text-anchor="middle">
+    <text x="220" y="392">el director del programa</text>
+    <text x="600" y="392">una colega</text>
+    <text x="980" y="392">un tercer integrante</text>
+  </g>
+</svg>

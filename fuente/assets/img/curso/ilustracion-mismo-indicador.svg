@@ -1,0 +1,170 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 460" width="1200" height="460" role="img"
+     aria-label="A la izquierda, una tarjeta con un birrete y una barra llena hasta cerca de un tercio, con el rótulo treinta y uno por ciento. De ella sale un camino que se abre en dos. El de arriba, punteado y sin nada en el trayecto, llega a una tarjeta de contorno punteado con la hoja de un plan al que le faltan casillas: reducir créditos. El de abajo pasa por un tramo amarillo con dos paradas, la desagregación del dato y la pregunta por la causa, y llega a una tarjeta blanca con la hoja del plan completa, con una línea que la recorre desde la mitad, y dos sedes unidas por una persona: la decisión que corresponde.">
+  <!-- Ilustración de marca · Universidad Andina Virtual · gov-u03-dcc-v2 · tema 1 (cuerpo, caso de
+       aplicación de 1.2, después del párrafo «La decisión que corresponde combina ambos niveles…» y
+       antes de «Al aplicar este razonamiento…»)
+       Concepto (DI, propuesta, recuadro «Caso de aplicación»): «se evidencia cómo un mismo indicador
+       conduce a decisiones distintas según el análisis que lo acompañe». Un dato, dos caminos: el
+       directo lleva a la primera hipótesis («corresponde reducir créditos»), que no llega a
+       proponerse; el otro pasa por lo que produjo el cambio de decisión («la desagregación del dato
+       que ya se tenía y la pregunta por la causa») y llega a «la decisión que corresponde».
+       Rótulos: cinco fragmentos literales del caso. Guion en insumos/ILUSTRACIONES.md.
+       Contorno punteado = lo que no está (el mismo código de ilustracion-dos-anos-despues.svg y de la
+       bandeja de ilustracion-proliferacion.svg): reducir créditos es «la propuesta inicial», que el
+       equipo no llega a proponer.
+       Las casillas de las dos hojas no se cuentan: el DI no dice cuántos créditos tiene el plan ni
+       cuántos se quitarían. Las dos hojas tienen las mismas doce; a la de arriba le faltan cuatro.
+       Único amarillo: el tramo del camino con las dos paradas del análisis. -->
+  <defs>
+    <linearGradient id="ilu-mismo-indicador-fondo" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%"   stop-color="#E6F3FA"/>
+      <stop offset="55%"  stop-color="#E8EDF5"/>
+      <stop offset="100%" stop-color="#F5F8FB"/>
+    </linearGradient>
+    <filter id="ilu-mismo-indicador-sombra" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#132B41" flood-opacity="0.16"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="460" rx="18" fill="url(#ilu-mismo-indicador-fondo)"/>
+
+  <!-- El indicador y la decisión que corresponde -->
+  <g filter="url(#ilu-mismo-indicador-sombra)" fill="#FFFFFF">
+    <rect x="60"  y="124" width="230" height="150" rx="16"/>
+    <rect x="840" y="232" width="300" height="148" rx="16"/>
+  </g>
+
+  <!-- ══ El mismo indicador: titulación oportuna, treinta y uno por ciento ══ -->
+  <g transform="translate(-472 -96)">
+    <path d="M618 262 v18 q27 15 54 0 v-18 z" fill="#00417B" opacity=".55"/>
+    <path d="M645 236 l50 18 l-50 18 l-50 -18 z" fill="#00417B"/>
+    <line x1="695" y1="254" x2="695" y2="278" stroke="#00417B" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="695" cy="282" r="5" fill="#00417B"/>
+  </g>
+  <rect x="85" y="222" width="180" height="22" rx="11" fill="#132B41" opacity=".12"/>
+  <rect x="85" y="222" width="56"  height="22" rx="11" fill="#00417B"/>
+
+  <!-- ══ El camino directo: sin nada en el trayecto, y no se toma ══ -->
+  <g fill="none" stroke="#132B41" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" opacity=".45">
+    <path d="M326 199 C 372 199, 350 96, 396 96 H 822" stroke-dasharray="7 7"/>
+    <path d="M812 86 l12 10 l-12 10"/>
+  </g>
+
+  <!-- reducir créditos: la propuesta inicial, que no llega a proponerse -->
+  <rect x="840" y="28" width="300" height="136" rx="16" fill="#F5F8FB" stroke="#132B41" stroke-width="2.5"
+        stroke-dasharray="6 6" stroke-linecap="round" opacity=".45"/>
+  <g opacity=".75">
+    <rect x="905" y="42" width="170" height="108" rx="8" fill="#EEF2F7" stroke="#132B41" stroke-width="2.5" stroke-opacity=".4"/>
+    <rect x="921" y="56" width="46" height="8" rx="4" fill="#132B41" opacity=".3"/>
+    <!-- las casillas que quedan -->
+    <g fill="#132B41" opacity=".24">
+      <rect x="921"  y="78" width="18" height="14" rx="3.5"/>
+      <rect x="945"  y="78" width="18" height="14" rx="3.5"/>
+      <rect x="993"  y="78" width="18" height="14" rx="3.5"/>
+      <rect x="1017" y="78" width="18" height="14" rx="3.5"/>
+      <rect x="921"  y="100" width="18" height="14" rx="3.5"/>
+      <rect x="969"  y="100" width="18" height="14" rx="3.5"/>
+      <rect x="993"  y="100" width="18" height="14" rx="3.5"/>
+      <rect x="1041" y="100" width="18" height="14" rx="3.5"/>
+    </g>
+    <!-- las que se quitan -->
+    <g fill="none" stroke="#132B41" stroke-width="1.8" stroke-dasharray="3.5 3.5" stroke-linecap="round" opacity=".5">
+      <rect x="969"  y="78" width="18" height="14" rx="3.5"/>
+      <rect x="1041" y="78" width="18" height="14" rx="3.5"/>
+      <rect x="945"  y="100" width="18" height="14" rx="3.5"/>
+      <rect x="1017" y="100" width="18" height="14" rx="3.5"/>
+    </g>
+    <rect x="921" y="128" width="112" height="7" rx="3.5" fill="#132B41" opacity=".16"/>
+  </g>
+
+  <!-- ══ El otro camino: pasa por el análisis ══ -->
+  <g fill="none" stroke="#00417B" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M302 199 H326"/>
+    <path d="M326 199 C 372 199, 350 306, 396 306"/>
+    <path d="M756 306 H 822"/>
+    <path d="M812 296 l12 10 l-12 10"/>
+  </g>
+  <!-- ÚNICO AMARILLO: el tramo del análisis, lo que produjo el cambio de decisión -->
+  <line x1="396" y1="306" x2="756" y2="306" stroke="#F0B443" stroke-width="12" stroke-linecap="round"/>
+
+  <!-- la desagregación del dato que ya se tenía: la misma barra, en partes -->
+  <circle cx="440" cy="306" r="31" fill="#FFFFFF" stroke="#00417B" stroke-width="3.5"/>
+  <rect x="421" y="290" width="38" height="9" rx="4.5" fill="#00417B"/>
+  <g fill="none" stroke="#00417B" stroke-width="2" stroke-linecap="round" opacity=".5">
+    <path d="M440 302 V306 M431 310 V306 H452 V310"/>
+  </g>
+  <rect x="421" y="313" width="20" height="9" rx="4.5" fill="#00417B" opacity=".6"/>
+  <rect x="446" y="313" width="13" height="9" rx="4.5" fill="#00417B" opacity=".6"/>
+
+  <!-- la pregunta por la causa -->
+  <circle cx="700" cy="306" r="31" fill="#FFFFFF" stroke="#00417B" stroke-width="3.5"/>
+  <path d="M690.5 298 a9.5 9.5 0 1 1 14 8.4 c-3 1.7 -4.5 3.6 -4.5 7.6" fill="none" stroke="#00417B"
+        stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="700" cy="323.5" r="3" fill="#00417B"/>
+
+  <!-- ══ La decisión que corresponde: combina ambos niveles ══ -->
+  <!-- distribuir la línea de investigación desde ciclos intermedios, con productos parciales acumulativos -->
+  <rect x="856" y="250" width="136" height="112" rx="8" fill="#E8EDF5" stroke="#00417B" stroke-width="2.5"/>
+  <rect x="867" y="262" width="44" height="8" rx="4" fill="#00417B" opacity=".55"/>
+  <g fill="#132B41" opacity=".22">
+    <rect x="867" y="281" width="15" height="13" rx="3"/>
+    <rect x="887" y="281" width="15" height="13" rx="3"/>
+    <rect x="907" y="281" width="15" height="13" rx="3"/>
+    <rect x="927" y="281" width="15" height="13" rx="3"/>
+    <rect x="947" y="281" width="15" height="13" rx="3"/>
+    <rect x="967" y="281" width="15" height="13" rx="3"/>
+    <rect x="867" y="300" width="15" height="13" rx="3"/>
+    <rect x="887" y="300" width="15" height="13" rx="3"/>
+    <rect x="907" y="300" width="15" height="13" rx="3"/>
+    <rect x="927" y="300" width="15" height="13" rx="3"/>
+    <rect x="947" y="300" width="15" height="13" rx="3"/>
+    <rect x="967" y="300" width="15" height="13" rx="3"/>
+  </g>
+  <line x1="914.5" y1="338" x2="974.5" y2="338" stroke="#00417B" stroke-width="3" stroke-linecap="round"/>
+  <g fill="#00417B">
+    <circle cx="914.5" cy="338" r="4"/>
+    <circle cx="934.5" cy="338" r="5"/>
+    <circle cx="954.5" cy="338" r="6"/>
+    <circle cx="974.5" cy="338" r="7"/>
+  </g>
+
+  <line x1="1006" y1="254" x2="1006" y2="358" stroke="#132B41" stroke-width="2" stroke-linecap="round" opacity=".12"/>
+
+  <!-- un mecanismo de asesoría compartida entre sedes -->
+  <g fill="none" stroke="#00417B" stroke-width="3.5" stroke-linecap="round">
+    <circle cx="1073" cy="263" r="10"/><path d="M1055 292 a18 13 0 0 1 36 0"/>
+  </g>
+  <g fill="none" stroke="#00417B" stroke-width="3" stroke-linecap="round" opacity=".6">
+    <path d="M1054 300 L1044 310"/>
+    <path d="M1092 300 L1102 310"/>
+  </g>
+  <g transform="translate(530.5 241.5) scale(.75)">
+    <path d="M654 120 L682 102 L710 120 Z" fill="#00417B" opacity=".55"/>
+    <rect x="654" y="120" width="56" height="6" fill="#00417B"/>
+    <g fill="#00417B" opacity=".45">
+      <rect x="660" y="130" width="8" height="24" rx="2"/>
+      <rect x="678" y="130" width="8" height="24" rx="2"/>
+      <rect x="696" y="130" width="8" height="24" rx="2"/>
+    </g>
+    <rect x="650" y="154" width="64" height="6" rx="2" fill="#00417B" opacity=".8"/>
+  </g>
+  <g transform="translate(594.5 241.5) scale(.75)">
+    <path d="M654 120 L682 102 L710 120 Z" fill="#00417B" opacity=".55"/>
+    <rect x="654" y="120" width="56" height="6" fill="#00417B"/>
+    <g fill="#00417B" opacity=".45">
+      <rect x="660" y="130" width="8" height="24" rx="2"/>
+      <rect x="678" y="130" width="8" height="24" rx="2"/>
+      <rect x="696" y="130" width="8" height="24" rx="2"/>
+    </g>
+    <rect x="650" y="154" width="64" height="6" rx="2" fill="#00417B" opacity=".8"/>
+  </g>
+
+  <!-- Los rótulos: las palabras del caso -->
+  <g font-family="Manrope, system-ui, sans-serif" font-size="17" font-weight="600" fill="#132B41" text-anchor="middle">
+    <text x="175" y="312">treinta y uno por ciento</text>
+    <text x="990" y="198">reducir créditos</text>
+    <text x="440" y="376">la desagregación del dato</text>
+    <text x="700" y="376">la pregunta por la causa</text>
+    <text x="990" y="418">la decisión que corresponde</text>
+  </g>
+</svg>

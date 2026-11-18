@@ -1,0 +1,149 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 440" width="1200" height="440" role="img"
+     aria-label="Dos tarjetas con fichas de indicadores. En la de la izquierda, más pequeña, hay ocho fichas y las ocho tienen su dato; en su esquina, una marca de verificación amarilla. En la de la derecha, más grande, hay treinta fichas: cinco tienen su dato y las otras veinticinco son solo un contorno punteado con el nombre, sin dato. Debajo de cada tarjeta, los rótulos: ocho indicadores calculados y verificables, y treinta declarados y cinco disponibles.">
+  <!-- Ilustración de marca · Universidad Andina Virtual · gov-u03-dcc-v2 · tema 1 (cuerpo, cierre de
+       1.1, entre el párrafo «Al aplicar este conocimiento en su institución…» y el párrafo «Para
+       verificar que su sistema de indicadores está listo…»)
+       Concepto (DI, propuesta, párrafo «Al aplicar este conocimiento en su institución…»): «Es
+       preferible una evaluación con ocho indicadores calculados y verificables que una con treinta
+       declarados y cinco disponibles.» Las cantidades son las del DI y se dibujan exactas: ocho
+       fichas con dato a la izquierda; treinta fichas a la derecha, cinco con dato. Rótulos:
+       fragmentos literales de esa oración. Guion en insumos/ILUSTRACIONES.md.
+       Una ficha = un indicador: la línea corta es su nombre (declarado) y la píldora, su dato. Todas
+       las píldoras miden lo mismo: no hay valores ni escala, solo «tiene dato» o «no lo tiene».
+       Contorno punteado = lo que falta (el mismo código de ilustracion-dos-anos-despues.svg).
+       La posición de las cinco fichas con dato no significa nada: el DI no dice cuáles son.
+       Único amarillo: la marca de verificación de la tarjeta de los ocho («Es preferible»,
+       «verificables»). -->
+  <defs>
+    <linearGradient id="ilu-ocho-calculados-fondo" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%"   stop-color="#E6F3FA"/>
+      <stop offset="55%"  stop-color="#E8EDF5"/>
+      <stop offset="100%" stop-color="#F5F8FB"/>
+    </linearGradient>
+    <filter id="ilu-ocho-calculados-sombra" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#132B41" flood-opacity="0.16"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="440" rx="18" fill="url(#ilu-ocho-calculados-fondo)"/>
+
+  <!-- Las dos evaluaciones: la de ocho indicadores y la de treinta -->
+  <g filter="url(#ilu-ocho-calculados-sombra)" fill="#FFFFFF">
+    <rect x="60" y="118" width="398" height="150" rx="16"/>
+    <rect x="562" y="34" width="578" height="318" rx="16"/>
+  </g>
+
+  <!-- ══ Ocho indicadores, los ocho con su dato ══ -->
+  <g>
+    <!-- fila 1 -->
+    <rect x="84" y="142" width="80" height="46" rx="8" fill="#E8EDF5" stroke="#00417B" stroke-width="2.5"/>
+    <rect x="94" y="151" width="34" height="6" rx="3" fill="#00417B" opacity=".55"/>
+    <rect x="94" y="165" width="60" height="14" rx="7" fill="#00417B"/>
+    <rect x="174" y="142" width="80" height="46" rx="8" fill="#E8EDF5" stroke="#00417B" stroke-width="2.5"/>
+    <rect x="184" y="151" width="34" height="6" rx="3" fill="#00417B" opacity=".55"/>
+    <rect x="184" y="165" width="60" height="14" rx="7" fill="#00417B"/>
+    <rect x="264" y="142" width="80" height="46" rx="8" fill="#E8EDF5" stroke="#00417B" stroke-width="2.5"/>
+    <rect x="274" y="151" width="34" height="6" rx="3" fill="#00417B" opacity=".55"/>
+    <rect x="274" y="165" width="60" height="14" rx="7" fill="#00417B"/>
+    <rect x="354" y="142" width="80" height="46" rx="8" fill="#E8EDF5" stroke="#00417B" stroke-width="2.5"/>
+    <rect x="364" y="151" width="34" height="6" rx="3" fill="#00417B" opacity=".55"/>
+    <rect x="364" y="165" width="60" height="14" rx="7" fill="#00417B"/>
+    <!-- fila 2 -->
+    <rect x="84" y="198" width="80" height="46" rx="8" fill="#E8EDF5" stroke="#00417B" stroke-width="2.5"/>
+    <rect x="94" y="207" width="34" height="6" rx="3" fill="#00417B" opacity=".55"/>
+    <rect x="94" y="221" width="60" height="14" rx="7" fill="#00417B"/>
+    <rect x="174" y="198" width="80" height="46" rx="8" fill="#E8EDF5" stroke="#00417B" stroke-width="2.5"/>
+    <rect x="184" y="207" width="34" height="6" rx="3" fill="#00417B" opacity=".55"/>
+    <rect x="184" y="221" width="60" height="14" rx="7" fill="#00417B"/>
+    <rect x="264" y="198" width="80" height="46" rx="8" fill="#E8EDF5" stroke="#00417B" stroke-width="2.5"/>
+    <rect x="274" y="207" width="34" height="6" rx="3" fill="#00417B" opacity=".55"/>
+    <rect x="274" y="221" width="60" height="14" rx="7" fill="#00417B"/>
+    <rect x="354" y="198" width="80" height="46" rx="8" fill="#E8EDF5" stroke="#00417B" stroke-width="2.5"/>
+    <rect x="364" y="207" width="34" height="6" rx="3" fill="#00417B" opacity=".55"/>
+    <rect x="364" y="221" width="60" height="14" rx="7" fill="#00417B"/>
+  </g>
+
+  <!-- ══ Treinta indicadores declarados; cinco con dato disponible ══ -->
+  <g>
+    <!-- fila 1 -->
+    <rect x="586" y="58" width="80" height="46" rx="8" fill="#F5F8FB" stroke="#132B41" stroke-width="2.5" stroke-dasharray="6 6" stroke-linecap="round" opacity=".45"/>
+    <rect x="596" y="67" width="34" height="6" rx="3" fill="#132B41" opacity=".22"/>
+    <rect x="676" y="58" width="80" height="46" rx="8" fill="#E8EDF5" stroke="#00417B" stroke-width="2.5"/>
+    <rect x="686" y="67" width="34" height="6" rx="3" fill="#00417B" opacity=".55"/>
+    <rect x="686" y="81" width="60" height="14" rx="7" fill="#00417B"/>
+    <rect x="766" y="58" width="80" height="46" rx="8" fill="#F5F8FB" stroke="#132B41" stroke-width="2.5" stroke-dasharray="6 6" stroke-linecap="round" opacity=".45"/>
+    <rect x="776" y="67" width="34" height="6" rx="3" fill="#132B41" opacity=".22"/>
+    <rect x="856" y="58" width="80" height="46" rx="8" fill="#F5F8FB" stroke="#132B41" stroke-width="2.5" stroke-dasharray="6 6" stroke-linecap="round" opacity=".45"/>
+    <rect x="866" y="67" width="34" height="6" rx="3" fill="#132B41" opacity=".22"/>
+    <rect x="946" y="58" width="80" height="46" rx="8" fill="#E8EDF5" stroke="#00417B" stroke-width="2.5"/>
+    <rect x="956" y="67" width="34" height="6" rx="3" fill="#00417B" opacity=".55"/>
+    <rect x="956" y="81" width="60" height="14" rx="7" fill="#00417B"/>
+    <rect x="1036" y="58" width="80" height="46" rx="8" fill="#F5F8FB" stroke="#132B41" stroke-width="2.5" stroke-dasharray="6 6" stroke-linecap="round" opacity=".45"/>
+    <rect x="1046" y="67" width="34" height="6" rx="3" fill="#132B41" opacity=".22"/>
+    <!-- fila 2 -->
+    <rect x="586" y="114" width="80" height="46" rx="8" fill="#F5F8FB" stroke="#132B41" stroke-width="2.5" stroke-dasharray="6 6" stroke-linecap="round" opacity=".45"/>
+    <rect x="596" y="123" width="34" height="6" rx="3" fill="#132B41" opacity=".22"/>
+    <rect x="676" y="114" width="80" height="46" rx="8" fill="#F5F8FB" stroke="#132B41" stroke-width="2.5" stroke-dasharray="6 6" stroke-linecap="round" opacity=".45"/>
+    <rect x="686" y="123" width="34" height="6" rx="3" fill="#132B41" opacity=".22"/>
+    <rect x="766" y="114" width="80" height="46" rx="8" fill="#F5F8FB" stroke="#132B41" stroke-width="2.5" stroke-dasharray="6 6" stroke-linecap="round" opacity=".45"/>
+    <rect x="776" y="123" width="34" height="6" rx="3" fill="#132B41" opacity=".22"/>
+    <rect x="856" y="114" width="80" height="46" rx="8" fill="#F5F8FB" stroke="#132B41" stroke-width="2.5" stroke-dasharray="6 6" stroke-linecap="round" opacity=".45"/>
+    <rect x="866" y="123" width="34" height="6" rx="3" fill="#132B41" opacity=".22"/>
+    <rect x="946" y="114" width="80" height="46" rx="8" fill="#F5F8FB" stroke="#132B41" stroke-width="2.5" stroke-dasharray="6 6" stroke-linecap="round" opacity=".45"/>
+    <rect x="956" y="123" width="34" height="6" rx="3" fill="#132B41" opacity=".22"/>
+    <rect x="1036" y="114" width="80" height="46" rx="8" fill="#F5F8FB" stroke="#132B41" stroke-width="2.5" stroke-dasharray="6 6" stroke-linecap="round" opacity=".45"/>
+    <rect x="1046" y="123" width="34" height="6" rx="3" fill="#132B41" opacity=".22"/>
+    <!-- fila 3 -->
+    <rect x="586" y="170" width="80" height="46" rx="8" fill="#F5F8FB" stroke="#132B41" stroke-width="2.5" stroke-dasharray="6 6" stroke-linecap="round" opacity=".45"/>
+    <rect x="596" y="179" width="34" height="6" rx="3" fill="#132B41" opacity=".22"/>
+    <rect x="676" y="170" width="80" height="46" rx="8" fill="#F5F8FB" stroke="#132B41" stroke-width="2.5" stroke-dasharray="6 6" stroke-linecap="round" opacity=".45"/>
+    <rect x="686" y="179" width="34" height="6" rx="3" fill="#132B41" opacity=".22"/>
+    <rect x="766" y="170" width="80" height="46" rx="8" fill="#E8EDF5" stroke="#00417B" stroke-width="2.5"/>
+    <rect x="776" y="179" width="34" height="6" rx="3" fill="#00417B" opacity=".55"/>
+    <rect x="776" y="193" width="60" height="14" rx="7" fill="#00417B"/>
+    <rect x="856" y="170" width="80" height="46" rx="8" fill="#F5F8FB" stroke="#132B41" stroke-width="2.5" stroke-dasharray="6 6" stroke-linecap="round" opacity=".45"/>
+    <rect x="866" y="179" width="34" height="6" rx="3" fill="#132B41" opacity=".22"/>
+    <rect x="946" y="170" width="80" height="46" rx="8" fill="#F5F8FB" stroke="#132B41" stroke-width="2.5" stroke-dasharray="6 6" stroke-linecap="round" opacity=".45"/>
+    <rect x="956" y="179" width="34" height="6" rx="3" fill="#132B41" opacity=".22"/>
+    <rect x="1036" y="170" width="80" height="46" rx="8" fill="#F5F8FB" stroke="#132B41" stroke-width="2.5" stroke-dasharray="6 6" stroke-linecap="round" opacity=".45"/>
+    <rect x="1046" y="179" width="34" height="6" rx="3" fill="#132B41" opacity=".22"/>
+    <!-- fila 4 -->
+    <rect x="586" y="226" width="80" height="46" rx="8" fill="#F5F8FB" stroke="#132B41" stroke-width="2.5" stroke-dasharray="6 6" stroke-linecap="round" opacity=".45"/>
+    <rect x="596" y="235" width="34" height="6" rx="3" fill="#132B41" opacity=".22"/>
+    <rect x="676" y="226" width="80" height="46" rx="8" fill="#F5F8FB" stroke="#132B41" stroke-width="2.5" stroke-dasharray="6 6" stroke-linecap="round" opacity=".45"/>
+    <rect x="686" y="235" width="34" height="6" rx="3" fill="#132B41" opacity=".22"/>
+    <rect x="766" y="226" width="80" height="46" rx="8" fill="#F5F8FB" stroke="#132B41" stroke-width="2.5" stroke-dasharray="6 6" stroke-linecap="round" opacity=".45"/>
+    <rect x="776" y="235" width="34" height="6" rx="3" fill="#132B41" opacity=".22"/>
+    <rect x="856" y="226" width="80" height="46" rx="8" fill="#F5F8FB" stroke="#132B41" stroke-width="2.5" stroke-dasharray="6 6" stroke-linecap="round" opacity=".45"/>
+    <rect x="866" y="235" width="34" height="6" rx="3" fill="#132B41" opacity=".22"/>
+    <rect x="946" y="226" width="80" height="46" rx="8" fill="#F5F8FB" stroke="#132B41" stroke-width="2.5" stroke-dasharray="6 6" stroke-linecap="round" opacity=".45"/>
+    <rect x="956" y="235" width="34" height="6" rx="3" fill="#132B41" opacity=".22"/>
+    <rect x="1036" y="226" width="80" height="46" rx="8" fill="#E8EDF5" stroke="#00417B" stroke-width="2.5"/>
+    <rect x="1046" y="235" width="34" height="6" rx="3" fill="#00417B" opacity=".55"/>
+    <rect x="1046" y="249" width="60" height="14" rx="7" fill="#00417B"/>
+    <!-- fila 5 -->
+    <rect x="586" y="282" width="80" height="46" rx="8" fill="#E8EDF5" stroke="#00417B" stroke-width="2.5"/>
+    <rect x="596" y="291" width="34" height="6" rx="3" fill="#00417B" opacity=".55"/>
+    <rect x="596" y="305" width="60" height="14" rx="7" fill="#00417B"/>
+    <rect x="676" y="282" width="80" height="46" rx="8" fill="#F5F8FB" stroke="#132B41" stroke-width="2.5" stroke-dasharray="6 6" stroke-linecap="round" opacity=".45"/>
+    <rect x="686" y="291" width="34" height="6" rx="3" fill="#132B41" opacity=".22"/>
+    <rect x="766" y="282" width="80" height="46" rx="8" fill="#F5F8FB" stroke="#132B41" stroke-width="2.5" stroke-dasharray="6 6" stroke-linecap="round" opacity=".45"/>
+    <rect x="776" y="291" width="34" height="6" rx="3" fill="#132B41" opacity=".22"/>
+    <rect x="856" y="282" width="80" height="46" rx="8" fill="#F5F8FB" stroke="#132B41" stroke-width="2.5" stroke-dasharray="6 6" stroke-linecap="round" opacity=".45"/>
+    <rect x="866" y="291" width="34" height="6" rx="3" fill="#132B41" opacity=".22"/>
+    <rect x="946" y="282" width="80" height="46" rx="8" fill="#F5F8FB" stroke="#132B41" stroke-width="2.5" stroke-dasharray="6 6" stroke-linecap="round" opacity=".45"/>
+    <rect x="956" y="291" width="34" height="6" rx="3" fill="#132B41" opacity=".22"/>
+    <rect x="1036" y="282" width="80" height="46" rx="8" fill="#F5F8FB" stroke="#132B41" stroke-width="2.5" stroke-dasharray="6 6" stroke-linecap="round" opacity=".45"/>
+    <rect x="1046" y="291" width="34" height="6" rx="3" fill="#132B41" opacity=".22"/>
+  </g>
+
+  <!-- ÚNICO AMARILLO: la marca de la evaluación preferible, la de los ocho calculados y verificables -->
+  <circle cx="450" cy="126" r="24" fill="#F0B443"/>
+  <path d="M439 127 l8 8 l14 -16" fill="none" stroke="#132B41" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Los rótulos: las palabras de la oración -->
+  <g font-family="Manrope, system-ui, sans-serif" font-size="17" font-weight="600" fill="#132B41" text-anchor="middle">
+    <text x="259" y="308">ocho indicadores calculados y verificables</text>
+    <text x="851" y="392">treinta declarados y cinco disponibles</text>
+  </g>
+</svg>

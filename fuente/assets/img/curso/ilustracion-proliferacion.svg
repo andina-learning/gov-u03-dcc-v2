@@ -1,0 +1,285 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 440" width="1200" height="440" role="img"
+     aria-label="A la izquierda, una tarjeta con tres personas, cada una con sus fichas de indicadores, y tres flechas que las llevan a la tarjeta del centro. En el centro, una tarjeta llena de fichas y, encima, un montón de fichas apiladas que la desbordan; debajo, sobre una etiqueta amarilla, la palabra Proliferación. A la derecha, una flecha punteada sale del montón hacia una bandeja de contorno punteado que está vacía. Debajo de los extremos, los rótulos: cada actor consultado propone, y ninguna comisión quiere descartar.">
+  <!-- Ilustración de marca · Universidad Andina Virtual · gov-u03-dcc-v2 · tema 1 (cuerpo, subtema
+       1.1, bajo el subtítulo «¿Qué es la proliferación?» y antes del párrafo «En la construcción de
+       sistemas de indicadores es frecuente encontrar una falla que agota a los equipos: la
+       proliferación…»)
+       Concepto (DI, propuesta, ese párrafo): «Ocurre porque cada actor consultado propone los
+       indicadores que le interesan y porque ninguna comisión quiere descartar la propuesta de un
+       colega.» Todos añaden, nadie quita: la batería desborda su tarjeta.
+       Rótulos: «Proliferación» (el texto de la infografía 02_inf en el Word del autor y el término
+       del párrafo) y dos fragmentos literales de la oración. Guion en insumos/ILUSTRACIONES.md.
+       Una ficha = un indicador propuesto: la línea azul es su nombre. No lleva dato ni deja de
+       llevarlo: aquí no se dibuja cuáles están calculados.
+       Las cantidades no significan nada: el DI no dice cuántos actores hay y la batería es «de
+       cincuenta o sesenta». Tres personas es el mínimo para leer «cada actor»; el montón se dibuja
+       encimado para que no se cuente, y no suma ninguna de las cantidades del DI.
+       Contorno punteado = lo que falta (el mismo código de ilustracion-dos-anos-despues.svg): la
+       salida que nadie usa y la bandeja de lo descartado, vacía.
+       Único amarillo: la etiqueta del término, «Proliferación» (texto en abismo sobre sol). -->
+  <defs>
+    <linearGradient id="ilu-proliferacion-fondo" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%"   stop-color="#E6F3FA"/>
+      <stop offset="55%"  stop-color="#E8EDF5"/>
+      <stop offset="100%" stop-color="#F5F8FB"/>
+    </linearGradient>
+    <filter id="ilu-proliferacion-sombra" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#132B41" flood-opacity="0.16"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="440" rx="18" fill="url(#ilu-proliferacion-fondo)"/>
+
+  <!-- Los actores consultados y la batería de indicadores -->
+  <g filter="url(#ilu-proliferacion-sombra)" fill="#FFFFFF">
+    <rect x="60" y="50" width="240" height="300" rx="16"/>
+    <rect x="392" y="182" width="440" height="168" rx="16"/>
+  </g>
+
+  <!-- ══ Cada actor consultado, con los indicadores que le interesan ══ -->
+  <g fill="none" stroke="#00417B" stroke-width="4" stroke-linecap="round">
+    <circle cx="112" cy="84" r="16"/><path d="M84 138 a28 20 0 0 1 56 0"/>
+    <circle cx="112" cy="182" r="16"/><path d="M84 236 a28 20 0 0 1 56 0"/>
+    <circle cx="112" cy="280" r="16"/><path d="M84 334 a28 20 0 0 1 56 0"/>
+  </g>
+  <rect x="180" y="73" width="80" height="46" rx="8" fill="#DCE8F3" stroke="#00417B" stroke-width="2.5" opacity=".6"/>
+  <g>
+    <rect x="168" y="83" width="80" height="46" rx="8" fill="#E8EDF5" stroke="#00417B" stroke-width="2.5"/>
+    <rect x="178" y="92" width="34" height="6" rx="3" fill="#00417B" opacity=".55"/>
+    <rect x="178" y="106" width="58" height="5" rx="2.5" fill="#132B41" opacity=".22"/>
+    <rect x="178" y="116" width="42" height="5" rx="2.5" fill="#132B41" opacity=".22"/>
+  </g>
+  <rect x="180" y="171" width="80" height="46" rx="8" fill="#DCE8F3" stroke="#00417B" stroke-width="2.5" opacity=".6"/>
+  <g>
+    <rect x="168" y="181" width="80" height="46" rx="8" fill="#E8EDF5" stroke="#00417B" stroke-width="2.5"/>
+    <rect x="178" y="190" width="34" height="6" rx="3" fill="#00417B" opacity=".55"/>
+    <rect x="178" y="204" width="58" height="5" rx="2.5" fill="#132B41" opacity=".22"/>
+    <rect x="178" y="214" width="42" height="5" rx="2.5" fill="#132B41" opacity=".22"/>
+  </g>
+  <rect x="180" y="269" width="80" height="46" rx="8" fill="#DCE8F3" stroke="#00417B" stroke-width="2.5" opacity=".6"/>
+  <g>
+    <rect x="168" y="279" width="80" height="46" rx="8" fill="#E8EDF5" stroke="#00417B" stroke-width="2.5"/>
+    <rect x="178" y="288" width="34" height="6" rx="3" fill="#00417B" opacity=".55"/>
+    <rect x="178" y="302" width="58" height="5" rx="2.5" fill="#132B41" opacity=".22"/>
+    <rect x="178" y="312" width="42" height="5" rx="2.5" fill="#132B41" opacity=".22"/>
+  </g>
+
+  <!-- ══ Propone: las fichas entran a la batería ══ -->
+  <g fill="none" stroke="#00417B" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M318 102 H372"/><path d="M360 92 l12 10 l-12 10"/>
+    <path d="M318 200 H372"/><path d="M360 190 l12 10 l-12 10"/>
+    <path d="M318 298 H372"/><path d="M360 288 l12 10 l-12 10"/>
+  </g>
+
+  <!-- ══ La batería: la tarjeta ya está llena ══ -->
+  <g>
+    <g>
+      <rect x="400" y="192" width="80" height="46" rx="8" fill="#E8EDF5" stroke="#00417B" stroke-width="2.5"/>
+      <rect x="410" y="201" width="34" height="6" rx="3" fill="#00417B" opacity=".55"/>
+      <rect x="410" y="215" width="58" height="5" rx="2.5" fill="#132B41" opacity=".22"/>
+      <rect x="410" y="225" width="42" height="5" rx="2.5" fill="#132B41" opacity=".22"/>
+    </g>
+    <g>
+      <rect x="486" y="192" width="80" height="46" rx="8" fill="#E8EDF5" stroke="#00417B" stroke-width="2.5"/>
+      <rect x="496" y="201" width="34" height="6" rx="3" fill="#00417B" opacity=".55"/>
+      <rect x="496" y="215" width="58" height="5" rx="2.5" fill="#132B41" opacity=".22"/>
+      <rect x="496" y="225" width="42" height="5" rx="2.5" fill="#132B41" opacity=".22"/>
+    </g>
+    <g>
+      <rect x="572" y="192" width="80" height="46" rx="8" fill="#E8EDF5" stroke="#00417B" stroke-width="2.5"/>
+      <rect x="582" y="201" width="34" height="6" rx="3" fill="#00417B" opacity=".55"/>
+      <rect x="582" y="215" width="58" height="5" rx="2.5" fill="#132B41" opacity=".22"/>
+      <rect x="582" y="225" width="42" height="5" rx="2.5" fill="#132B41" opacity=".22"/>
+    </g>
+    <g>
+      <rect x="658" y="192" width="80" height="46" rx="8" fill="#E8EDF5" stroke="#00417B" stroke-width="2.5"/>
+      <rect x="668" y="201" width="34" height="6" rx="3" fill="#00417B" opacity=".55"/>
+      <rect x="668" y="215" width="58" height="5" rx="2.5" fill="#132B41" opacity=".22"/>
+      <rect x="668" y="225" width="42" height="5" rx="2.5" fill="#132B41" opacity=".22"/>
+    </g>
+    <g>
+      <rect x="744" y="192" width="80" height="46" rx="8" fill="#E8EDF5" stroke="#00417B" stroke-width="2.5"/>
+      <rect x="754" y="201" width="34" height="6" rx="3" fill="#00417B" opacity=".55"/>
+      <rect x="754" y="215" width="58" height="5" rx="2.5" fill="#132B41" opacity=".22"/>
+      <rect x="754" y="225" width="42" height="5" rx="2.5" fill="#132B41" opacity=".22"/>
+    </g>
+    <g>
+      <rect x="400" y="244" width="80" height="46" rx="8" fill="#E8EDF5" stroke="#00417B" stroke-width="2.5"/>
+      <rect x="410" y="253" width="34" height="6" rx="3" fill="#00417B" opacity=".55"/>
+      <rect x="410" y="267" width="58" height="5" rx="2.5" fill="#132B41" opacity=".22"/>
+      <rect x="410" y="277" width="42" height="5" rx="2.5" fill="#132B41" opacity=".22"/>
+    </g>
+    <g>
+      <rect x="486" y="244" width="80" height="46" rx="8" fill="#E8EDF5" stroke="#00417B" stroke-width="2.5"/>
+      <rect x="496" y="253" width="34" height="6" rx="3" fill="#00417B" opacity=".55"/>
+      <rect x="496" y="267" width="58" height="5" rx="2.5" fill="#132B41" opacity=".22"/>
+      <rect x="496" y="277" width="42" height="5" rx="2.5" fill="#132B41" opacity=".22"/>
+    </g>
+    <g>
+      <rect x="572" y="244" width="80" height="46" rx="8" fill="#E8EDF5" stroke="#00417B" stroke-width="2.5"/>
+      <rect x="582" y="253" width="34" height="6" rx="3" fill="#00417B" opacity=".55"/>
+      <rect x="582" y="267" width="58" height="5" rx="2.5" fill="#132B41" opacity=".22"/>
+      <rect x="582" y="277" width="42" height="5" rx="2.5" fill="#132B41" opacity=".22"/>
+    </g>
+    <g>
+      <rect x="658" y="244" width="80" height="46" rx="8" fill="#E8EDF5" stroke="#00417B" stroke-width="2.5"/>
+      <rect x="668" y="253" width="34" height="6" rx="3" fill="#00417B" opacity=".55"/>
+      <rect x="668" y="267" width="58" height="5" rx="2.5" fill="#132B41" opacity=".22"/>
+      <rect x="668" y="277" width="42" height="5" rx="2.5" fill="#132B41" opacity=".22"/>
+    </g>
+    <g>
+      <rect x="744" y="244" width="80" height="46" rx="8" fill="#E8EDF5" stroke="#00417B" stroke-width="2.5"/>
+      <rect x="754" y="253" width="34" height="6" rx="3" fill="#00417B" opacity=".55"/>
+      <rect x="754" y="267" width="58" height="5" rx="2.5" fill="#132B41" opacity=".22"/>
+      <rect x="754" y="277" width="42" height="5" rx="2.5" fill="#132B41" opacity=".22"/>
+    </g>
+    <g>
+      <rect x="400" y="296" width="80" height="46" rx="8" fill="#E8EDF5" stroke="#00417B" stroke-width="2.5"/>
+      <rect x="410" y="305" width="34" height="6" rx="3" fill="#00417B" opacity=".55"/>
+      <rect x="410" y="319" width="58" height="5" rx="2.5" fill="#132B41" opacity=".22"/>
+      <rect x="410" y="329" width="42" height="5" rx="2.5" fill="#132B41" opacity=".22"/>
+    </g>
+    <g>
+      <rect x="486" y="296" width="80" height="46" rx="8" fill="#E8EDF5" stroke="#00417B" stroke-width="2.5"/>
+      <rect x="496" y="305" width="34" height="6" rx="3" fill="#00417B" opacity=".55"/>
+      <rect x="496" y="319" width="58" height="5" rx="2.5" fill="#132B41" opacity=".22"/>
+      <rect x="496" y="329" width="42" height="5" rx="2.5" fill="#132B41" opacity=".22"/>
+    </g>
+    <g>
+      <rect x="572" y="296" width="80" height="46" rx="8" fill="#E8EDF5" stroke="#00417B" stroke-width="2.5"/>
+      <rect x="582" y="305" width="34" height="6" rx="3" fill="#00417B" opacity=".55"/>
+      <rect x="582" y="319" width="58" height="5" rx="2.5" fill="#132B41" opacity=".22"/>
+      <rect x="582" y="329" width="42" height="5" rx="2.5" fill="#132B41" opacity=".22"/>
+    </g>
+    <g>
+      <rect x="658" y="296" width="80" height="46" rx="8" fill="#E8EDF5" stroke="#00417B" stroke-width="2.5"/>
+      <rect x="668" y="305" width="34" height="6" rx="3" fill="#00417B" opacity=".55"/>
+      <rect x="668" y="319" width="58" height="5" rx="2.5" fill="#132B41" opacity=".22"/>
+      <rect x="668" y="329" width="42" height="5" rx="2.5" fill="#132B41" opacity=".22"/>
+    </g>
+    <g>
+      <rect x="744" y="296" width="80" height="46" rx="8" fill="#E8EDF5" stroke="#00417B" stroke-width="2.5"/>
+      <rect x="754" y="305" width="34" height="6" rx="3" fill="#00417B" opacity=".55"/>
+      <rect x="754" y="319" width="58" height="5" rx="2.5" fill="#132B41" opacity=".22"/>
+      <rect x="754" y="329" width="42" height="5" rx="2.5" fill="#132B41" opacity=".22"/>
+    </g>
+  </g>
+
+  <!-- ══ …y nadie quita ninguna: el montón desborda la tarjeta ══ -->
+  <g>
+    <g transform="rotate(-13 432 170)">
+      <rect x="392" y="147" width="80" height="46" rx="8" fill="#E8EDF5" stroke="#00417B" stroke-width="2.5"/>
+      <rect x="402" y="156" width="34" height="6" rx="3" fill="#00417B" opacity=".55"/>
+      <rect x="402" y="170" width="58" height="5" rx="2.5" fill="#132B41" opacity=".22"/>
+      <rect x="402" y="180" width="42" height="5" rx="2.5" fill="#132B41" opacity=".22"/>
+    </g>
+    <g transform="rotate(7 512 176)">
+      <rect x="472" y="153" width="80" height="46" rx="8" fill="#E8EDF5" stroke="#00417B" stroke-width="2.5"/>
+      <rect x="482" y="162" width="34" height="6" rx="3" fill="#00417B" opacity=".55"/>
+      <rect x="482" y="176" width="58" height="5" rx="2.5" fill="#132B41" opacity=".22"/>
+      <rect x="482" y="186" width="42" height="5" rx="2.5" fill="#132B41" opacity=".22"/>
+    </g>
+    <g transform="rotate(-5 594 168)">
+      <rect x="554" y="145" width="80" height="46" rx="8" fill="#E8EDF5" stroke="#00417B" stroke-width="2.5"/>
+      <rect x="564" y="154" width="34" height="6" rx="3" fill="#00417B" opacity=".55"/>
+      <rect x="564" y="168" width="58" height="5" rx="2.5" fill="#132B41" opacity=".22"/>
+      <rect x="564" y="178" width="42" height="5" rx="2.5" fill="#132B41" opacity=".22"/>
+    </g>
+    <g transform="rotate(11 676 175)">
+      <rect x="636" y="152" width="80" height="46" rx="8" fill="#E8EDF5" stroke="#00417B" stroke-width="2.5"/>
+      <rect x="646" y="161" width="34" height="6" rx="3" fill="#00417B" opacity=".55"/>
+      <rect x="646" y="175" width="58" height="5" rx="2.5" fill="#132B41" opacity=".22"/>
+      <rect x="646" y="185" width="42" height="5" rx="2.5" fill="#132B41" opacity=".22"/>
+    </g>
+    <g transform="rotate(-8 756 169)">
+      <rect x="716" y="146" width="80" height="46" rx="8" fill="#E8EDF5" stroke="#00417B" stroke-width="2.5"/>
+      <rect x="726" y="155" width="34" height="6" rx="3" fill="#00417B" opacity=".55"/>
+      <rect x="726" y="169" width="58" height="5" rx="2.5" fill="#132B41" opacity=".22"/>
+      <rect x="726" y="179" width="42" height="5" rx="2.5" fill="#132B41" opacity=".22"/>
+    </g>
+    <g transform="rotate(17 822 160)">
+      <rect x="782" y="137" width="80" height="46" rx="8" fill="#E8EDF5" stroke="#00417B" stroke-width="2.5"/>
+      <rect x="792" y="146" width="34" height="6" rx="3" fill="#00417B" opacity=".55"/>
+      <rect x="792" y="160" width="58" height="5" rx="2.5" fill="#132B41" opacity=".22"/>
+      <rect x="792" y="170" width="42" height="5" rx="2.5" fill="#132B41" opacity=".22"/>
+    </g>
+    <g transform="rotate(9 474 134)">
+      <rect x="434" y="111" width="80" height="46" rx="8" fill="#E8EDF5" stroke="#00417B" stroke-width="2.5"/>
+      <rect x="444" y="120" width="34" height="6" rx="3" fill="#00417B" opacity=".55"/>
+      <rect x="444" y="134" width="58" height="5" rx="2.5" fill="#132B41" opacity=".22"/>
+      <rect x="444" y="144" width="42" height="5" rx="2.5" fill="#132B41" opacity=".22"/>
+    </g>
+    <g transform="rotate(-11 556 138)">
+      <rect x="516" y="115" width="80" height="46" rx="8" fill="#E8EDF5" stroke="#00417B" stroke-width="2.5"/>
+      <rect x="526" y="124" width="34" height="6" rx="3" fill="#00417B" opacity=".55"/>
+      <rect x="526" y="138" width="58" height="5" rx="2.5" fill="#132B41" opacity=".22"/>
+      <rect x="526" y="148" width="42" height="5" rx="2.5" fill="#132B41" opacity=".22"/>
+    </g>
+    <g transform="rotate(4 640 132)">
+      <rect x="600" y="109" width="80" height="46" rx="8" fill="#E8EDF5" stroke="#00417B" stroke-width="2.5"/>
+      <rect x="610" y="118" width="34" height="6" rx="3" fill="#00417B" opacity=".55"/>
+      <rect x="610" y="132" width="58" height="5" rx="2.5" fill="#132B41" opacity=".22"/>
+      <rect x="610" y="142" width="42" height="5" rx="2.5" fill="#132B41" opacity=".22"/>
+    </g>
+    <g transform="rotate(-14 722 137)">
+      <rect x="682" y="114" width="80" height="46" rx="8" fill="#E8EDF5" stroke="#00417B" stroke-width="2.5"/>
+      <rect x="692" y="123" width="34" height="6" rx="3" fill="#00417B" opacity=".55"/>
+      <rect x="692" y="137" width="58" height="5" rx="2.5" fill="#132B41" opacity=".22"/>
+      <rect x="692" y="147" width="42" height="5" rx="2.5" fill="#132B41" opacity=".22"/>
+    </g>
+    <g transform="rotate(12 790 124)">
+      <rect x="750" y="101" width="80" height="46" rx="8" fill="#E8EDF5" stroke="#00417B" stroke-width="2.5"/>
+      <rect x="760" y="110" width="34" height="6" rx="3" fill="#00417B" opacity=".55"/>
+      <rect x="760" y="124" width="58" height="5" rx="2.5" fill="#132B41" opacity=".22"/>
+      <rect x="760" y="134" width="42" height="5" rx="2.5" fill="#132B41" opacity=".22"/>
+    </g>
+    <g transform="rotate(-7 522 98)">
+      <rect x="482" y="75" width="80" height="46" rx="8" fill="#E8EDF5" stroke="#00417B" stroke-width="2.5"/>
+      <rect x="492" y="84" width="34" height="6" rx="3" fill="#00417B" opacity=".55"/>
+      <rect x="492" y="98" width="58" height="5" rx="2.5" fill="#132B41" opacity=".22"/>
+      <rect x="492" y="108" width="42" height="5" rx="2.5" fill="#132B41" opacity=".22"/>
+    </g>
+    <g transform="rotate(13 606 101)">
+      <rect x="566" y="78" width="80" height="46" rx="8" fill="#E8EDF5" stroke="#00417B" stroke-width="2.5"/>
+      <rect x="576" y="87" width="34" height="6" rx="3" fill="#00417B" opacity=".55"/>
+      <rect x="576" y="101" width="58" height="5" rx="2.5" fill="#132B41" opacity=".22"/>
+      <rect x="576" y="111" width="42" height="5" rx="2.5" fill="#132B41" opacity=".22"/>
+    </g>
+    <g transform="rotate(-4 690 96)">
+      <rect x="650" y="73" width="80" height="46" rx="8" fill="#E8EDF5" stroke="#00417B" stroke-width="2.5"/>
+      <rect x="660" y="82" width="34" height="6" rx="3" fill="#00417B" opacity=".55"/>
+      <rect x="660" y="96" width="58" height="5" rx="2.5" fill="#132B41" opacity=".22"/>
+      <rect x="660" y="106" width="42" height="5" rx="2.5" fill="#132B41" opacity=".22"/>
+    </g>
+    <g transform="rotate(10 566 64)">
+      <rect x="526" y="41" width="80" height="46" rx="8" fill="#E8EDF5" stroke="#00417B" stroke-width="2.5"/>
+      <rect x="536" y="50" width="34" height="6" rx="3" fill="#00417B" opacity=".55"/>
+      <rect x="536" y="64" width="58" height="5" rx="2.5" fill="#132B41" opacity=".22"/>
+      <rect x="536" y="74" width="42" height="5" rx="2.5" fill="#132B41" opacity=".22"/>
+    </g>
+    <g transform="rotate(-12 650 60)">
+      <rect x="610" y="37" width="80" height="46" rx="8" fill="#E8EDF5" stroke="#00417B" stroke-width="2.5"/>
+      <rect x="620" y="46" width="34" height="6" rx="3" fill="#00417B" opacity=".55"/>
+      <rect x="620" y="60" width="58" height="5" rx="2.5" fill="#132B41" opacity=".22"/>
+      <rect x="620" y="70" width="42" height="5" rx="2.5" fill="#132B41" opacity=".22"/>
+    </g>
+  </g>
+
+  <!-- ══ Descartar: la salida que nadie usa y la bandeja vacía ══ -->
+  <g fill="none" stroke="#132B41" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" opacity=".45">
+    <path d="M872 150 C 930 110, 1010 120, 1030 196" stroke-dasharray="7 7"/>
+    <path d="M1019 189 L1030 198 L1035 185"/>
+  </g>
+  <path d="M940 232 V330 a16 16 0 0 0 16 16 H1104 a16 16 0 0 0 16 -16 V232" fill="#F5F8FB" stroke="#132B41"
+        stroke-width="2.5" stroke-dasharray="6 6" stroke-linecap="round" stroke-linejoin="round" opacity=".45"/>
+
+  <!-- ÚNICO AMARILLO: la etiqueta con el nombre de la falla -->
+  <rect x="524" y="369" width="176" height="34" rx="17" fill="#F0B443"/>
+
+  <!-- Los rótulos: el término y las palabras de la oración -->
+  <g font-family="Manrope, system-ui, sans-serif" font-size="17" font-weight="600" fill="#132B41" text-anchor="middle">
+    <text x="180" y="392">cada actor consultado propone</text>
+    <text x="612" y="392">Proliferación</text>
+    <text x="1030" y="392">ninguna comisión quiere descartar</text>
+  </g>
+</svg>

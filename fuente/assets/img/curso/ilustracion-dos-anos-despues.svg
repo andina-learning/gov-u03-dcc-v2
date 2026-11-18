@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="1200" height="400" role="img"
+     aria-label="Dos tarjetas sobre una línea de tiempo. En la primera, la hoja de una decisión ya firmada y, a su lado, el contorno punteado de un documento que no está. En la segunda, un informe con todas sus líneas marcadas con un visto bueno. El tramo de la línea de tiempo que separa las dos tarjetas está en amarillo. Debajo, los rótulos: la decisión, dos años después e impecable en precisión.">
+  <!-- Ilustración de marca · Universidad Andina Virtual · gov-u03-dcc · tema 1 (cuerpo, 1.3,
+       después del párrafo que cierra las cuatro exigencias)
+       Concepto (DI, P0443): «Una evaluación impecable en precisión, pero entregada dos años después
+       de la decisión que debía informar ha fallado en utilidad, y el fracaso es igual de real.»
+       La decisión se tomó con el lugar del informe vacío; el informe, sin una sola falla, llega
+       después. Rótulos: fragmentos literales de P0443. Guion en insumos/ILUSTRACIONES.md.
+       Único amarillo: el tramo de tiempo entre la decisión y la entrega. -->
+  <defs>
+    <linearGradient id="ilu-dos-anos-despues-fondo" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%"   stop-color="#E6F3FA"/>
+      <stop offset="55%"  stop-color="#E8EDF5"/>
+      <stop offset="100%" stop-color="#F5F8FB"/>
+    </linearGradient>
+    <filter id="ilu-dos-anos-despues-sombra" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#132B41" flood-opacity="0.16"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="400" rx="18" fill="url(#ilu-dos-anos-despues-fondo)"/>
+
+  <!-- El momento de la decisión y el momento de la entrega -->
+  <g filter="url(#ilu-dos-anos-despues-sombra)" fill="#FFFFFF">
+    <rect x="120" y="40" width="320" height="204" rx="16"/>
+    <rect x="760" y="40" width="320" height="204" rx="16"/>
+  </g>
+
+  <!-- ══ La línea de tiempo ══ -->
+  <line x1="150" y1="296" x2="1050" y2="296" stroke="#132B41" stroke-width="3" stroke-linecap="round" opacity=".18"/>
+  <g stroke="#00417B" stroke-width="3" stroke-linecap="round" opacity=".5">
+    <line x1="280" y1="256" x2="280" y2="282"/>
+    <line x1="920" y1="256" x2="920" y2="282"/>
+  </g>
+  <!-- ÚNICO AMARILLO: el tiempo que pasó entre la decisión y la entrega -->
+  <line x1="280" y1="296" x2="920" y2="296" stroke="#F0B443" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="280" cy="296" r="10" fill="#00417B"/>
+  <circle cx="920" cy="296" r="10" fill="#00417B"/>
+
+  <!-- ══ La decisión: ya firmada, con el lugar del informe vacío ══ -->
+  <rect x="160" y="64" width="104" height="156" rx="8" fill="#E8EDF5" stroke="#00417B" stroke-width="2.5"/>
+  <rect x="174" y="80" width="46" height="8" rx="4" fill="#00417B" opacity=".55"/>
+  <g fill="#132B41" opacity=".22">
+    <rect x="174" y="102" width="76" height="7" rx="3.5"/>
+    <rect x="174" y="118" width="60" height="7" rx="3.5"/>
+    <rect x="174" y="134" width="68" height="7" rx="3.5"/>
+  </g>
+  <path d="M174 190 c 6 -18, 12 -18, 14 -4 s 6 12, 12 -5 s 9 -13, 11 1 s 8 10, 16 -6 s 9 4, 15 2"
+        fill="none" stroke="#00417B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="174" y1="202" x2="250" y2="202" stroke="#132B41" stroke-width="2.5" stroke-linecap="round" opacity=".35"/>
+  <!-- el informe que debía informarla: todavía no está -->
+  <rect x="296" y="64" width="104" height="156" rx="8" fill="#F5F8FB" stroke="#132B41" stroke-width="2.5"
+        stroke-dasharray="6 6" stroke-linecap="round" opacity=".45"/>
+
+  <!-- ══ El informe: impecable, cada afirmación sustentada ══ -->
+  <rect x="880" y="56" width="104" height="156" rx="8" fill="#DCE8F3" stroke="#00417B" stroke-width="2.5" opacity=".6"/>
+  <rect x="868" y="68" width="104" height="156" rx="8" fill="#E8EDF5" stroke="#00417B" stroke-width="2.5"/>
+  <rect x="882" y="84" width="46" height="8" rx="4" fill="#00417B" opacity=".55"/>
+  <g fill="none" stroke="#00417B" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M882 114 l5 5 l9 -10"/>
+    <path d="M882 140 l5 5 l9 -10"/>
+    <path d="M882 166 l5 5 l9 -10"/>
+    <path d="M882 192 l5 5 l9 -10"/>
+  </g>
+  <g fill="#132B41" opacity=".22">
+    <rect x="906" y="110" width="52" height="7" rx="3.5"/>
+    <rect x="906" y="136" width="44" height="7" rx="3.5"/>
+    <rect x="906" y="162" width="52" height="7" rx="3.5"/>
+    <rect x="906" y="188" width="38" height="7" rx="3.5"/>
+  </g>
+
+  <!-- Los rótulos: las palabras del párrafo -->
+  <g font-family="Manrope, system-ui, sans-serif" font-size="17" font-weight="600" fill="#132B41" text-anchor="middle">
+    <text x="280" y="346">la decisión</text>
+    <text x="600" y="346">dos años después</text>
+    <text x="920" y="346">impecable en precisión</text>
+  </g>
+</svg>
